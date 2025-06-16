@@ -1,0 +1,321 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-slate-50 group/design-root overflow-x-hidden" style='font-family: Inter, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e7edf4] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#0d141c]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6_330)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z"
+                      fill="currentColor"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_6_330"><rect width="48" height="48" fill="white"></rect></clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em]">SkillSwap</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Find Talent</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Find Work</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Why SkillSwap?</a>
+              <a class="text-[#0d141c] text-sm font-medium leading-normal" href="#">Enterprise</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#49739c] flex border-none bg-[#e7edf4] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#0c7ff2] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Post a job</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#e7edf4] text-[#0d141c] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Log In</span>
+              </button>
+            </div>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDz8hVb_akz702p1o34wKDCzwEmdpGYmZ4II4UbETm0KtrogTbnSvi7IA9nmnqJxYJPjkQKd4u7h6dzSiUs8z-D-iVaAlQvVq4LY-yHaI8AUnxvv6802TtV7nOLNHUts5VXZ4EPw89hpbAiXzXaIiBdMnT91VJL1OW-iuzIVyh2-ANW4Y6q5g09Umgt6s8PxFc5MKPdsQD5vOpvG43VluSovIe1HKZVpI-cix9qUnzcrSlOstWScQjHb3be8bitw2wloGsqGL5PH7U");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-8Jnod6RwS51aBWM00bYkaQ0sorJkzdjnZS38zwLMIE2RITpYtgjEOSztO-WRI2s6E88yHPK8Lkk8nvFd4hyBHD4rfZgbzRtZesQafBWDZdlBuUG1Q4s9497jUARNEN7xlFhHXZ22PwwLclwKikWZdijm8BKGKxcVpxkKRqCREngvCTLrZv5a753ZD-n5s5au0Ag1Tba0RBCC5FwXX7TrX6_zXGLxojNrxTrJ-5f2tNlLNBQvFYbF3p_4V8WmZlm968RqueaaIh0");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Find the perfect freelance services for your business
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Millions of people use SkillSwap to turn their ideas into reality.
+                    </h2>
+                  </div>
+                  <label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+                    <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                      <div
+                        class="text-[#49739c] flex border border-[#cedbe8] bg-slate-50 items-center justify-center pl-[15px] rounded-l-lg border-r-0"
+                        data-icon="MagnifyingGlass"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        placeholder="Search for services"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border border-[#cedbe8] bg-slate-50 focus:border-[#cedbe8] h-full placeholder:text-[#49739c] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                        value=""
+                      />
+                      <div class="flex items-center justify-center rounded-r-lg border-l-0 border border-[#cedbe8] bg-slate-50 pr-[7px]">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#0c7ff2] text-slate-50 text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                        >
+                          <span class="truncate">Search</span>
+                        </button>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Popular professional services</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCbeKsBoN5wXXjrOL8czvikXCjeCs3a5QmiWE7J42Wctcg9EE3gqiDhHjpPXSFX9GrDfFfDBRVnJwYjkiK5D-FOpNd8KZyUw4P9WbMJcPiibYv8F-jW-3NAR0WKwdMjUxq1ofUF2brJCrfMpV_AbnFbhsBnCEhTurgSal3VkTwQJK0YZO1jFt64OV9L1VHoxyef6wGTzMyAsei46lSRxlN_GWhFiekrIV0l14bEm8RUSvdqTlD9so_d7vDNx4g0z18JBW63cGjzGbM");'
+                ></div>
+                <div>
+                  <p class="text-[#0d141c] text-base font-medium leading-normal">Build your brand</p>
+                  <p class="text-[#49739c] text-sm font-normal leading-normal">Logo design, brand style guides</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDfzGol-5zW9yfVBx6RJ5eDuYM10LfCv_fCp4ZuvogANZu-WIept-Js-dGb3GmvH1GmUw8Nm24r8FbUmXcxEIzlTSGf9Z8y1MxS6uHjkVHH7LNZQaKYdhwqZCXVKCCZ7upvfQJzvPwFLpnUFBXzSVwHPcTCxLyEb40C5WWmd9kkzj4sQfmC9x_tWKSu30EAXFrGFCoQDWj4YDkxUzSISrCeTeRY5teldqhZmIsvPQARiVRZMs0Vbu624dG37yZNucaAw5xvaPVAsvI");'
+                ></div>
+                <div>
+                  <p class="text-[#0d141c] text-base font-medium leading-normal">Design a website</p>
+                  <p class="text-[#49739c] text-sm font-normal leading-normal">Web design, web development</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD6UWhDz8mFQhdbh-g1ug-RLPj28tB26R9pTkfSILqdFnYhfjapEy_r35Q904VZHtwkOzO7VUjYVIyk7F4WLRZ07P06danT3RibMEvvCrG2Yi-t5Q5pxNlrLd69CXna0_TTG5FW6MHS5tjKB-AYyNbfw-Cu_192SJEx6iBwN4LxI2Fs3ArWKWKnXfMaT_MwwaU_fgnRizR8ciPglxwoZpYz5QRn63smlP3wqEz0OkSxij0FCMTVVGkyM3FcA0qzUxIt0oyP1JFf01U");'
+                ></div>
+                <div>
+                  <p class="text-[#0d141c] text-base font-medium leading-normal">Bring your vision to life</p>
+                  <p class="text-[#49739c] text-sm font-normal leading-normal">Illustration, character design</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB-0HDGAYzEotwOVpzP4XdaeenhbtKevzexGKzWBkN5hHp_iCRbDnZPuE6AILbP9XcQU_xRf9qQ96LRl4wsToauaM4RJ5NO0g_7x6fvg2brrMSSOBZNsWvb6ssJJpIFACzhyz0IMK1nTjvr3Y-S1O10sDuqjxxE-xm6hZE5J0bQZb8Tl1Xoa9AqcGvIQXiL6y6dIegxv-O54xZegryqYeIeFl99ZisF0hpE48sWAhXuUoT6FoafUxGf_vmvOsnlrfQ4oKXnSV_P37s");'
+                ></div>
+                <div>
+                  <p class="text-[#0d141c] text-base font-medium leading-normal">Market your business</p>
+                  <p class="text-[#49739c] text-sm font-normal leading-normal">Social media marketing, content marketing</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured freelancers</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDqIKrBdw-OMCHLzUQxo4pQNuarIoAqHELD63dcJqYWxl3NDt9mVTQNBQtlnI8GBmn7FNI_lu0EtvyST63tYU-ZPuytudnlb_5sXXKNuUDEJnGwW3XzA5s1yD8L4jo3XZXb-Nr2Yx7GQ8obe61m3Wlxn2m0GQq0K5X7hrr8F1gJxVqASLiwwgoS1wNWCl-h4ULLAmL1FB5g_pkNqSTlGJ4Y9zHpSHawhiSaKTPwBpEl3C9MfqNjeFWGjtXpxs4EJX70jIF9i66K9yg");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0d141c] text-base font-medium leading-normal">Ethan Carter</p>
+                    <p class="text-[#49739c] text-sm font-normal leading-normal">Web Developer</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBPTVZHrGuAv1y1cypM_FaywrX9A1aQj_Squlz_CDjUhMwjSlx_XMT-ayUSHj7EeJEB4tsFQ5S4_ALvLnpsbpTbdMmNv67VAggrfshMMI8l6gOk1GTEAek-XljF9SAlM3lQ5rayv5nYPgsHDBzXKSb_x7a2bEAuO3JQBFNvj5hqSwNPHpUXCx_ReSFWbUkXtNDooQ9_Ql3AKwaTrfevEfMffzAj86mmggFOr4w2wADweC4HiYT_CtRdv3fYaaPSFKmoRmqwPTN41S0");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0d141c] text-base font-medium leading-normal">Sophia Clark</p>
+                    <p class="text-[#49739c] text-sm font-normal leading-normal">Graphic Designer</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCA-uR9Vk2lbr-J-A2rTb6Nq-CpVIfL4cBsYJDAS5BSiMSaG6NkO3V1B8T8fWHqxxBdhx2G-vQzSRBVwpqUlbwKS4Hrtk-_xotuoXrX8qRcP50ei1ChAgGGosfibdk0EMhvkE6Dpc9dZtwmm5kV3zmbRbUDK-gKgPANfpCZctIL4vlw46t7DwaVkq27-gyUpVYqtsw393t4ZdNeZfbZ54VNbgVyOXEOzUaBKwh8uOfFBEnAe96QBxlqlt9REfm88kqHveOzUXqKEQs");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0d141c] text-base font-medium leading-normal">Liam Bennett</p>
+                    <p class="text-[#49739c] text-sm font-normal leading-normal">Digital Marketer</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCBtORXb5rv8_AwdlEbhl8ZkwraqLr1x8JXpD6wWTIEC0SoQM9SfKn9AOJ19f-gprlrqZKpT3L0LtX-iS6HhyTSRV81iku1BZQKYqxixRqgrkpoVUkAggK13LxkEFQH2VEksPoSFp9UnQaaIpUtJ7VjrZECVYgjV0oFW1T3sb-z5jJLKe-TY6Hr5Hz1udh9Bvab7erX8Yqlvh2CMDVURLVsiep1Nt5o1DWCyYGyLfTi64-wg03UeHbACk2eJzEbpSS12L9Py2JUcr4");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0d141c] text-base font-medium leading-normal">Olivia Hayes</p>
+                    <p class="text-[#49739c] text-sm font-normal leading-normal">Illustrator</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAxSdGoQozpDqwwedyarmVDtG2kS8PHQqit-Iifb-0bwPjcHEln2qKKm2BxF6KL0VFt0LwMApoKFpSJNqT5MEdUnqBVQKv_H4Vvcm1aMI1pOi8q8f8C9p8l3JmUEKnsgZj66M-t6c7W2xNTUId1BsUDAFkxblPUdk-DHbHfo8nNxi4CnHJbUyTFOxxElSLVEJpsrd00VFtjLLBq0QnaWWEx2iq0MrOvdYHs4OKeQf0SUS6yE7UcBPswvwBmeyBgdh3b1orAgKTqYtU");'
+                  ></div>
+                  <div>
+                    <p class="text-[#0d141c] text-base font-medium leading-normal">Noah Foster</p>
+                    <p class="text-[#49739c] text-sm font-normal leading-normal">Content Writer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#0d141c] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Browse by category</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="Code" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Programming &amp; Tech</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="PencilLine" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M227.32,73.37,182.63,28.69a16,16,0,0,0-22.63,0L36.69,152A15.86,15.86,0,0,0,32,163.31V208a16,16,0,0,0,16,16H216a8,8,0,0,0,0-16H115.32l112-112A16,16,0,0,0,227.32,73.37ZM136,75.31,152.69,92,68,176.69,51.31,160ZM48,208V179.31L76.69,208Zm48-3.31L79.32,188,164,103.31,180.69,120Zm96-96L147.32,64l24-24L216,84.69Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Graphics &amp; Design</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="Megaphone" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M240,120a48.05,48.05,0,0,0-48-48H152.2c-2.91-.17-53.62-3.74-101.91-44.24A16,16,0,0,0,24,40V200a16,16,0,0,0,26.29,12.25c37.77-31.68,77-40.76,93.71-43.3v31.72A16,16,0,0,0,151.12,214l11,7.33A16,16,0,0,0,186.5,212l11.77-44.36A48.07,48.07,0,0,0,240,120ZM40,199.93V40h0c42.81,35.91,86.63,45,104,47.24v65.48C126.65,155,82.84,164.07,40,199.93Zm131,8,0,.11-11-7.33V168h21.6ZM192,152H160V88h32a32,32,0,1,1,0,64Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Digital Marketing</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="Video" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M164.44,105.34l-48-32A8,8,0,0,0,104,80v64a8,8,0,0,0,12.44,6.66l48-32a8,8,0,0,0,0-13.32ZM120,129.05V95l25.58,17ZM216,40H40A16,16,0,0,0,24,56V168a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,128H40V56H216V168Zm16,40a8,8,0,0,1-8,8H32a8,8,0,0,1,0-16H224A8,8,0,0,1,232,208Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Video &amp; Animation</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="PaintBrush" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,32a8,8,0,0,0-8-8c-44.08,0-89.31,49.71-114.43,82.63A60,60,0,0,0,32,164c0,30.88-19.54,44.73-20.47,45.37A8,8,0,0,0,16,224H92a60,60,0,0,0,57.37-77.57C182.3,121.31,232,76.08,232,32ZM92,208H34.63C41.38,198.41,48,183.92,48,164a44,44,0,1,1,44,44Zm32.42-94.45q5.14-6.66,10.09-12.55A76.23,76.23,0,0,1,155,121.49q-5.9,4.94-12.55,10.09A60.54,60.54,0,0,0,124.42,113.55Zm42.7-2.68a92.57,92.57,0,0,0-22-22c31.78-34.53,55.75-45,69.9-47.91C212.17,55.12,201.65,79.09,167.12,110.87Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Writing &amp; Translation</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="ChartLine" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M232,208a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V48a8,8,0,0,1,16,0v94.37L90.73,98a8,8,0,0,1,10.07-.38l58.81,44.11L218.73,90a8,8,0,1,1,10.54,12l-64,56a8,8,0,0,1-10.07.38L96.39,114.29,40,163.63V200H224A8,8,0,0,1,232,208Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Data</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="Users" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Business</h2>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#cedbe8] bg-slate-50 p-4 items-center">
+                <div class="text-[#0d141c]" data-icon="Headset" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M201.89,54.66A103.43,103.43,0,0,0,128.79,24H128A104,104,0,0,0,24,128v56a24,24,0,0,0,24,24H64a24,24,0,0,0,24-24V144a24,24,0,0,0-24-24H40.36A88.12,88.12,0,0,1,190.54,65.93,87.39,87.39,0,0,1,215.65,120H192a24,24,0,0,0-24,24v40a24,24,0,0,0,24,24h24a24,24,0,0,1-24,24H136a8,8,0,0,0,0,16h56a40,40,0,0,0,40-40V128A103.41,103.41,0,0,0,201.89,54.66ZM64,136a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V136Zm128,56a8,8,0,0,1-8-8V144a8,8,0,0,1,8-8h24v56Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#0d141c] text-base font-bold leading-tight">Customer Service</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
